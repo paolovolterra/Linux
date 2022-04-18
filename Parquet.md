@@ -8,6 +8,12 @@ Parquet is additionally supported by several large-scale query providers, such a
 
 # [Home page DuckDB/Parquet](https://duckdb.org/docs/data/parquet)
 
+## load csv
+
+rel = duckdb.from_csv_auto("progetti_esteso_2014-2020_20211231.csv")
+rel
+
+
 ## da csv a parquet
 
 	import pandas as pd
@@ -68,6 +74,8 @@ guardare:
 
 
 ## siti da finire di studiare
+
+https://deepnote.com/@abid/Data-Science-with-DuckDB-9KKvj1EoQrmj6nj4Y2prkg
 
 ## Introducing FugueSQL — SQL for Pandas, Spark, and Dask DataFrames
 An End-To-End SQL Interface for Data Science and Analytics 
