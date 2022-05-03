@@ -98,3 +98,14 @@ https://github.com/grndng/JupyterCondaWSL
 
 https://towardsdatascience.com/configuring-jupyter-notebook-in-windows-subsystem-linux-wsl2-c757893e9d69
 
+## [yt-dlp vs youtube-dl](https://linuxconfig.org/yt-dlp-vs-youtube-dl)
+	
+sudo apt install youtube-dl
+	
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+	
+sudo chmod a+rx /usr/local/bin/yt-dlp
+	
+### miglior augio
+	
+yt-dlp -f 'ba' -x --audio-format mp3 
