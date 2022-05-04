@@ -8,6 +8,7 @@ Parquet is additionally supported by several large-scale query providers, such a
 
 # [Home page DuckDB/Parquet](https://duckdb.org/docs/data/parquet)
 
+![logo](https://datos.gob.es/sites/default/files/styles/blog_image/public/blog/image/logo_formato_parquet.jpg?itok=CT-UucXj)
 ## load csv
 
 rel = duckdb.from_csv_auto("progetti_esteso_2014-2020_20211231.csv")
