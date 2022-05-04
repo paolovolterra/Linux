@@ -1,4 +1,5 @@
-# SUPERSET
+# [Apache SUPERSET](https://superset.apache.org/)
+![logo](https://superset.apache.org/img/superset-logo-horiz-apache.svg)
 
 su
 pip install Pillow==2.2.2
