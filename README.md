@@ -3,7 +3,7 @@
 in questa cartella metto le info utili a gestire Linnux su WSL su Windows 11
 
 
-![](https://informaticaperanziani.it/wp-content/uploads/2020/05/wsl-windows.png)
+![logo](https://www.somagnews.com/wp-content/uploads/2021/10/Microsoft-10-696x261.jpg)
 
 # controllo versione linux
 lsb_release -a
