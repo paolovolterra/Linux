@@ -1,4 +1,8 @@
 # Windows Subsystem for Linux 
+
+in questa cartella metto le info utili a gestire Linnux su WSL su Windows 11
+
+
 ![](https://informaticaperanziani.it/wp-content/uploads/2020/05/wsl-windows.png)
 
 # controllo versione linux
