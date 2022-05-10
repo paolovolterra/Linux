@@ -18,7 +18,7 @@ conda install jupyterlab
 sudo apt-get upgrade
 sudo apt autoremove
 
-## reset password WSL Linux
+# reset password WSL Linux
 con Powershell:
 * wsl --user root
 * passwd dave
