@@ -18,6 +18,11 @@ conda install jupyterlab
 sudo apt-get upgrade
 sudo apt autoremove
 
+## reset password WSL Linux
+con Powershell:
+* wsl --user root
+* passwd dave
+* 
 
 # Installazione di Miniconda 
  meglio usare Miniconda invece di Anaconda. Quest'ultimo contiene molte librerie che di solito non useresti, traducendosi in aggiornamenti di distribuzione più lenti e spazio su disco significativamente più richiesto. 
