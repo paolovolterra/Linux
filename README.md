@@ -115,6 +115,6 @@ sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o
 	
 sudo chmod a+rx /usr/local/bin/yt-dlp
 	
-### miglior augio
+### download best audio
 	
-yt-dlp -f 'ba' -x --audio-format mp3 
+yt-dlp -f 'ba' -x --audio-format mp3 https://www.youtube.com/watch?v=dQw4w9WgXcQ -o '%(id)s.mp3'
