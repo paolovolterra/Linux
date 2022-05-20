@@ -9,45 +9,22 @@ in questa cartella metto le info utili a gestire Linnux su WSL su Windows 11
 lsb_release -a
 uname -r
 
-# Controllo e installazione di Python 
-python --version
-sudo apt install python3
-
-
-conda install jupyterlab
-sudo apt-get upgrade
-sudo apt autoremove
-
 # reset password WSL Linux
 con Powershell:
 * wsl --user root
 * passwd dave
 * 
 
-# Installazione di Miniconda 
- meglio usare Miniconda invece di Anaconda. Quest'ultimo contiene molte librerie che di solito non useresti, traducendosi in aggiornamenti di distribuzione più lenti e spazio su disco significativamente più richiesto. 
- 
-sudo wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sudo chmod +x Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
 
 
-# aggiornamento
-conda update conda 
-conda update --all 
-
-
-# altre librerie 
-
+# [installazione di Python](https://towardsdatascience.com/configuring-jupyter-notebook-in-windows-subsystem-linux-wsl2-c757893e9d69)
+```python
 conda install pandas scikit-learn matplotlib jupyter jupyterlab sqlalchemy seaborn pip git 
-
 conda install -c conda-forge jupyter_contrib_nbextensions 
 conda update conda 
 conda update --all 
-
-
 jupyter lab --no-browser 
-
+```
 
 
 # Avvio di Miniconda e creazione di un ambiente (opzionale) 
